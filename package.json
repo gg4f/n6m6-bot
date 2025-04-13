@@ -10,20 +10,21 @@
     "gif",
     "animated",
     "roulette",
-    "roulette",
     "discord",
     "fizbo"
   ],
   "name": "roulette-bot",
   "author": "shuruhatik",
   "scripts": {
-    "Shuruhatik#2443": "node -r repl.uptime/start index.js"
+    "start": "node -r repl.uptime/start index.js"
   },
   "dependencies": {
     "@napi-rs/canvas": "^0.1.41",
     "@skyra/gifenc": "^1.0.1",
+    "dotenv": "^16.5.0",
     "eris": "^0.17.2",
     "eris-collects": "^1.0.0",
+    "express": "^5.1.0",
     "inquirer": "^9.2.3",
     "nanospinner": "^1.1.0",
     "quick.replit": "^1.0.3",
